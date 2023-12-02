@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="./enviaremail.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="index2.html">Email</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Enviar proposta</h1>
+            <br>
+            <label class="textoover">SEU NOME AQUI:</label>
+            <br>
+            <input type="text" class="caixadetexto" autocomplete="off">
+            <br>
+            <label class="textoover">SUA PROPOSTA AQUI:</label>
+            <br>
+            <input type="text" class="caixadetexto" autocomplete="off" id="campo">
+            
+            <div>
+                <button type="button" onclick="enviaremail()"><span></span>ENVIAR PROPOSTA</button>
+                
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function insta(){
+        window.open("https://instagram.com/");
+    }
+    function twitter(){
+        window.open("https://twitter.com/");
+    }
+    function yt(){
+        window.open("https://youtube.com/");
+    }
+</script>
